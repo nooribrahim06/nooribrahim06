@@ -1,43 +1,55 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img">
 <title>Autonomous terminal introduction for Nour Ibrahim</title>
 <defs>
-  <clipPath id="q1"><rect x="48" y="70" width="0" height="30"><animate attributeName="width" values="0;0;285;285;0" keyTimes="0;.025;.07;.94;1" dur="30s" repeatCount="indefinite"/></rect></clipPath>
-  <clipPath id="q2"><rect x="48" y="202" width="0" height="30"><animate attributeName="width" values="0;0;400;400;0" keyTimes="0;.25;.30;.94;1" dur="30s" repeatCount="indefinite"/></rect></clipPath>
-  <clipPath id="q3"><rect x="48" y="384" width="0" height="30"><animate attributeName="width" values="0;0;390;390;0" keyTimes="0;.56;.61;.94;1" dur="30s" repeatCount="indefinite"/></rect></clipPath>
-  <clipPath id="q4"><rect x="48" y="492" width="0" height="30"><animate attributeName="width" values="0;0;350;350;0" keyTimes="0;.75;.80;.94;1" dur="30s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="q1"><rect x="48" y="70" width="0" height="30"><animate attributeName="width" values="0;0;330;330;0" keyTimes="0;.02;.045;.97;1" dur="42s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="a1"><rect x="68" y="104" width="0" height="28"><animate attributeName="width" values="0;0;190;190;0" keyTimes="0;.055;.08;.97;1" dur="42s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="a2"><rect x="68" y="129" width="0" height="28"><animate attributeName="width" values="0;0;560;560;0" keyTimes="0;.09;.14;.97;1" dur="42s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="a3"><rect x="68" y="154" width="0" height="28"><animate attributeName="width" values="0;0;760;760;0" keyTimes="0;.15;.21;.97;1" dur="42s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="q2"><rect x="48" y="202" width="0" height="30"><animate attributeName="width" values="0;0;470;470;0" keyTimes="0;.22;.25;.97;1" dur="42s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="a4"><rect x="68" y="236" width="0" height="28"><animate attributeName="width" values="0;0;610;610;0" keyTimes="0;.26;.31;.97;1" dur="42s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="a5"><rect x="68" y="261" width="0" height="28"><animate attributeName="width" values="0;0;680;680;0" keyTimes="0;.32;.38;.97;1" dur="42s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="a6"><rect x="68" y="286" width="0" height="28"><animate attributeName="width" values="0;0;510;510;0" keyTimes="0;.39;.44;.97;1" dur="42s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="a7"><rect x="68" y="311" width="0" height="28"><animate attributeName="width" values="0;0;640;640;0" keyTimes="0;.45;.51;.97;1" dur="42s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="a8"><rect x="68" y="336" width="0" height="28"><animate attributeName="width" values="0;0;520;520;0" keyTimes="0;.52;.56;.97;1" dur="42s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="q3"><rect x="48" y="384" width="0" height="30"><animate attributeName="width" values="0;0;450;450;0" keyTimes="0;.57;.60;.97;1" dur="42s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="a9"><rect x="68" y="418" width="0" height="28"><animate attributeName="width" values="0;0;820;820;0" keyTimes="0;.61;.68;.97;1" dur="42s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="a10"><rect x="68" y="443" width="0" height="28"><animate attributeName="width" values="0;0;790;790;0" keyTimes="0;.69;.76;.97;1" dur="42s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="q4"><rect x="48" y="492" width="0" height="30"><animate attributeName="width" values="0;0;410;410;0" keyTimes="0;.77;.80;.97;1" dur="42s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="a11"><rect x="68" y="526" width="0" height="28"><animate attributeName="width" values="0;0;800;800;0" keyTimes="0;.81;.87;.97;1" dur="42s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="a12"><rect x="68" y="551" width="0" height="28"><animate attributeName="width" values="0;0;660;660;0" keyTimes="0;.88;.93;.97;1" dur="42s" repeatCount="indefinite"/></rect></clipPath>
   <style>
     text{font-family:'JetBrains Mono','SFMono-Regular','Cascadia Code',Consolas,monospace}.dim{fill:#777}.soft{fill:#c8c8c8}.ink{fill:#fff}.mint{fill:#fff}.blue{fill:#e2e2e2}.amber{fill:#aaa}.cursor{animation:blink 1s steps(2,end) infinite}@keyframes blink{50%{opacity:0}}@media(prefers-reduced-motion:reduce){.cursor{animation:none}}
   </style>
 </defs>
 
 <rect width="1200" height="650" rx="10" fill="#090909"/><rect x="1" y="1" width="1198" height="648" rx="9" fill="none" stroke="#333"/>
-<circle cx="28" cy="27" r="5" fill="#555"/><circle cx="46" cy="27" r="5" fill="#777"/><circle cx="64" cy="27" r="5" fill="#aaa"/><text x="88" y="32" font-size="11" class="dim">nour@cairo:~</text><text x="1100" y="32" font-size="10" class="soft">running</text><path d="M20 52H1180" stroke="#2a2a2a"/>
+<circle cx="28" cy="27" r="5" fill="#555"/><circle cx="46" cy="27" r="5" fill="#777"/><circle cx="64" cy="27" r="5" fill="#aaa"/><text x="88" y="33" font-size="13" class="dim">nour@cairo:~</text><text x="1092" y="33" font-size="12" class="soft">running</text><path d="M20 52H1180" stroke="#2a2a2a"/>
 
 <!-- question 1 -->
-<g clip-path="url(#q1)"><text x="48" y="92" font-size="15" class="mint">nour@cairo:~$</text><text x="185" y="92" font-size="15" class="ink">whoami</text></g>
-<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.09;.10;.94;1" dur="30s" repeatCount="indefinite"/><text x="68" y="126" font-size="13" class="blue">Nour Ibrahim</text></g>
-<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.13;.14;.94;1" dur="30s" repeatCount="indefinite"/><text x="68" y="151" font-size="13" class="soft">Computer Engineering student @ Cairo University</text></g>
-<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.17;.18;.94;1" dur="30s" repeatCount="indefinite"/><text x="68" y="176" font-size="13" class="soft">Backend engineer in progress</text><text x="300" y="176" font-size="13" class="dim">·</text><text x="320" y="176" font-size="13" class="soft">exploring ML / AI engineering</text></g>
+<g clip-path="url(#q1)"><text x="48" y="92" font-size="17" class="mint">nour@cairo:~$</text><text x="200" y="92" font-size="17" class="ink">whoami</text></g>
+<g clip-path="url(#a1)"><text x="68" y="126" font-size="15" class="blue">Nour Ibrahim</text></g>
+<g clip-path="url(#a2)"><text x="68" y="151" font-size="15" class="soft">Computer Engineering student @ Cairo University</text></g>
+<g clip-path="url(#a3)"><text x="68" y="176" font-size="15" class="soft">Backend engineer in progress · exploring ML / AI engineering</text></g>
 
 <!-- question 2 -->
-<g clip-path="url(#q2)"><text x="48" y="224" font-size="15" class="mint">nour@cairo:~$</text><text x="185" y="224" font-size="15" class="ink">stack --group-by layer</text></g>
-<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.32;.33;.94;1" dur="30s" repeatCount="indefinite"/><text x="68" y="258" font-size="12" class="blue">languages</text><text x="184" y="258" font-size="12" class="soft">C++ · Python · Java · JavaScript · SQL</text></g>
-<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.36;.37;.94;1" dur="30s" repeatCount="indefinite"/><text x="68" y="283" font-size="12" class="blue">backend</text><text x="184" y="283" font-size="12" class="soft">Node.js ↗ · Express · FastAPI · Flask · REST</text></g>
-<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.40;.41;.94;1" dur="30s" repeatCount="indefinite"/><text x="68" y="308" font-size="12" class="blue">data</text><text x="184" y="308" font-size="12" class="soft">PostgreSQL · SQLite · MongoDB</text></g>
-<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.44;.45;.94;1" dur="30s" repeatCount="indefinite"/><text x="68" y="333" font-size="12" class="blue">ml</text><text x="184" y="333" font-size="12" class="soft">NumPy · pandas · Matplotlib · scikit-learn</text></g>
-<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.48;.49;.94;1" dur="30s" repeatCount="indefinite"/><text x="68" y="358" font-size="12" class="blue">tools</text><text x="184" y="358" font-size="12" class="soft">Git · GitHub · Docker ↗ · Linux</text><text x="1020" y="358" font-size="10" class="dim">↗ learning</text></g>
+<g clip-path="url(#q2)"><text x="48" y="224" font-size="17" class="mint">nour@cairo:~$</text><text x="200" y="224" font-size="17" class="ink">stack --group-by layer</text></g>
+<g clip-path="url(#a4)"><text x="68" y="258" font-size="15" class="blue">languages</text><text x="190" y="258" font-size="15" class="soft">C++ · Python · Java · JavaScript · SQL</text></g>
+<g clip-path="url(#a5)"><text x="68" y="283" font-size="15" class="blue">backend</text><text x="190" y="283" font-size="15" class="soft">Node.js ↗ · Express · FastAPI · Flask · REST</text></g>
+<g clip-path="url(#a6)"><text x="68" y="308" font-size="15" class="blue">data</text><text x="190" y="308" font-size="15" class="soft">PostgreSQL · SQLite · MongoDB</text></g>
+<g clip-path="url(#a7)"><text x="68" y="333" font-size="15" class="blue">ml</text><text x="190" y="333" font-size="15" class="soft">NumPy · pandas · Matplotlib · scikit-learn</text></g>
+<g clip-path="url(#a8)"><text x="68" y="358" font-size="15" class="blue">tools</text><text x="190" y="358" font-size="15" class="soft">Git · GitHub · Docker ↗ · Linux</text><text x="1010" y="358" font-size="12" class="dim">↗ learning</text></g>
 
 <!-- question 3 -->
-<g clip-path="url(#q3)"><text x="48" y="406" font-size="15" class="mint">nour@cairo:~$</text><text x="185" y="406" font-size="15" class="ink">cat current_focus.txt</text></g>
-<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.63;.64;.94;1" dur="30s" repeatCount="indefinite"/><text x="68" y="440" font-size="12" class="soft">OS · Networking · Databases · System Design · Distributed Systems</text></g>
-<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.67;.68;.94;1" dur="30s" repeatCount="indefinite"/><text x="68" y="465" font-size="12" class="soft">Clean Architecture · Design Patterns · Competitive Programming</text></g>
+<g clip-path="url(#q3)"><text x="48" y="406" font-size="17" class="mint">nour@cairo:~$</text><text x="200" y="406" font-size="17" class="ink">cat current_focus.txt</text></g>
+<g clip-path="url(#a9)"><text x="68" y="440" font-size="15" class="soft">OS · Networking · Databases · System Design · Distributed Systems</text></g>
+<g clip-path="url(#a10)"><text x="68" y="465" font-size="15" class="soft">Clean Architecture · Design Patterns · Competitive Programming</text></g>
 
 <!-- question 4 -->
-<g clip-path="url(#q4)"><text x="48" y="514" font-size="15" class="mint">nour@cairo:~$</text><text x="185" y="514" font-size="15" class="ink">cat interests.txt</text></g>
-<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.82;.83;.94;1" dur="30s" repeatCount="indefinite"/><text x="68" y="548" font-size="12" class="soft">Architecture · Performance · Scalability · APIs · Cloud · DevOps</text></g>
-<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.86;.87;.94;1" dur="30s" repeatCount="indefinite"/><text x="68" y="573" font-size="12" class="soft">Distributed Systems · ML Systems · Open Source</text></g>
+<g clip-path="url(#q4)"><text x="48" y="514" font-size="17" class="mint">nour@cairo:~$</text><text x="200" y="514" font-size="17" class="ink">cat interests.txt</text></g>
+<g clip-path="url(#a11)"><text x="68" y="548" font-size="15" class="soft">Architecture · Performance · Scalability · APIs · Cloud · DevOps</text></g>
+<g clip-path="url(#a12)"><text x="68" y="573" font-size="15" class="soft">Distributed Systems · ML Systems · Open Source</text></g>
 
 <!-- final prompt and reset -->
-<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.90;.91;.94;1" dur="30s" repeatCount="indefinite"/><text x="48" y="617" font-size="15" class="mint">nour@cairo:~$</text><rect x="185" y="602" width="8" height="18" rx="1" class="mint cursor"/></g>
-<rect x="20" y="53" width="1160" height="576" fill="#090909" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.955;.965;.99;1" dur="30s" repeatCount="indefinite"/></rect>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.94;.945;.965;1" dur="42s" repeatCount="indefinite"/><text x="48" y="617" font-size="17" class="mint">nour@cairo:~$</text><rect x="200" y="601" width="9" height="20" rx="1" class="mint cursor"/></g>
+<rect x="20" y="53" width="1160" height="576" fill="#090909" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.97;.98;.995;1" dur="42s" repeatCount="indefinite"/></rect>
 </svg>
