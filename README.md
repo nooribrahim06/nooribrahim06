@@ -12,9 +12,9 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nooribrahim06/nooribrahim06/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nooribrahim06/nooribrahim06/output/github-contribution-grid-snake.svg">
-    <img src="https://raw.githubusercontent.com/nooribrahim06/nooribrahim06/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Nour Ibrahim's animated contribution snake">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nooribrahim06/nooribrahim06/output/github-contribution-grid-snake-dark.svg?v=public-1">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nooribrahim06/nooribrahim06/output/github-contribution-grid-snake.svg?v=public-1">
+    <img src="https://raw.githubusercontent.com/nooribrahim06/nooribrahim06/output/github-contribution-grid-snake-dark.svg?v=public-1" width="100%" alt="Nour Ibrahim's animated contribution snake">
   </picture>
 </div>
 
