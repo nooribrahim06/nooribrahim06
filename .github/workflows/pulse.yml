@@ -1,0 +1,36 @@
+name: Refresh system pulse
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * *"
+  push:
+    branches: [main]
+    paths: ["scripts/generate_pulse.py"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-pulse
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Render live SVG
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_pulse.py
+      - name: Commit only when the pulse changed
+        run: |
+          git config user.name "profile-pulse[bot]"
+          git config user.email "profile-pulse[bot]@users.noreply.github.com"
+          git add assets/pulse.svg
+          git diff --cached --quiet || git commit -m "chore: refresh profile pulse"
+          git push
