@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img">
+<title>NourOS — Nour Ibrahim's engineering control surface</title>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#030712"/><stop offset=".5" stop-color="#07101c"/><stop offset="1" stop-color="#040914"/></linearGradient>
+  <linearGradient id="hero" x1="0" x2="1"><stop stop-color="#d6fff1"/><stop offset=".55" stop-color="#7fffd4"/><stop offset="1" stop-color="#61b8ff"/></linearGradient>
+  <linearGradient id="edge" x1="0" x2="1"><stop stop-color="#68f5bd" stop-opacity=".9"/><stop offset="1" stop-color="#5aaeff" stop-opacity=".4"/></linearGradient>
+  <radialGradient id="orb"><stop stop-color="#54efb0" stop-opacity=".22"/><stop offset="1" stop-color="#54efb0" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#7aa2c8" stroke-opacity=".045"/></pattern>
+  <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="soft"><feGaussianBlur stdDeviation="25"/></filter>
+  <clipPath id="scope"><rect x="728" y="82" width="416" height="256" rx="18"/></clipPath>
+  <style>
+    text{font-family:'JetBrains Mono','SFMono-Regular','Cascadia Code',Consolas,monospace}.sans{font-family:Inter,'Segoe UI',sans-serif}.dim{fill:#6d839d}.soft{fill:#9bacc0}.ink{fill:#e7f1fb}.mint{fill:#68f5bd}.blue{fill:#61b8ff}.panel{fill:#091321;fill-opacity:.82;stroke:#1c3045}.hair{stroke:#1c3045;fill:none}.tag{fill:#0d1b2b;stroke:#20384e}
+    .packet{stroke:#68f5bd;stroke-width:3;stroke-linecap:round;stroke-dasharray:4 145;animation:packet 3.1s linear infinite;filter:url(#glow)}
+    .packet.b{stroke:#61b8ff;animation-delay:-1.55s}.scan{animation:scan 4.8s ease-in-out infinite}.cursor{animation:blink 1s steps(2,end) infinite}.bar1{animation:b1 3s ease-in-out infinite}.bar2{animation:b2 2.4s ease-in-out infinite}.bar3{animation:b3 3.7s ease-in-out infinite}.radar{transform-origin:936px 210px;animation:radar 5s linear infinite}.log1{animation:logs 6s ease-in-out infinite}.log2{animation:logs 6s .15s ease-in-out infinite}.log3{animation:logs 6s .3s ease-in-out infinite}
+    @keyframes packet{to{stroke-dashoffset:-298}}@keyframes scan{0%,100%{transform:translateY(-22px);opacity:0}15%,85%{opacity:.7}50%{transform:translateY(255px)}}@keyframes blink{50%{opacity:0}}@keyframes radar{to{transform:rotate(360deg)}}@keyframes b1{50%{width:124px}}@keyframes b2{50%{width:72px}}@keyframes b3{50%{width:141px}}@keyframes logs{0%,18%{opacity:0;transform:translateY(6px)}28%,88%{opacity:1;transform:translateY(0)}100%{opacity:0;transform:translateY(-3px)}}
+    @media(prefers-reduced-motion:reduce){.packet,.scan,.cursor,.bar1,.bar2,.bar3,.radar,.log1,.log2,.log3{animation:none}}
+  </style>
+</defs>
+<rect width="1200" height="760" rx="28" fill="url(#bg)"/><rect width="1200" height="760" rx="28" fill="url(#grid)"/><circle cx="1050" cy="100" r="290" fill="url(#orb)" filter="url(#soft)"/>
+<rect x="1" y="1" width="1198" height="758" rx="27" fill="none" stroke="#203247"/>
+
+<!-- chrome -->
+<circle cx="32" cy="31" r="5" fill="#ff6577"/><circle cx="50" cy="31" r="5" fill="#ffc857"/><circle cx="68" cy="31" r="5" fill="#68f5bd"/>
+<text x="94" y="36" font-size="12" class="dim">NOUR_OS / CONTROL SURFACE</text><text x="1040" y="36" font-size="11" class="mint">● ONLINE</text><text x="1110" y="36" font-size="11" class="dim">UTC+3</text>
+<path d="M24 58H1176" class="hair"/>
+
+<!-- identity -->
+<g transform="translate(48 88)">
+  <text y="18" font-size="11" class="mint" letter-spacing="2">ENGINEER IN FORMATION / CAIRO</text>
+  <text y="86" font-size="63" font-weight="750" letter-spacing="-3" fill="url(#hero)" class="sans">NOUR</text>
+  <text y="145" font-size="63" font-weight="750" letter-spacing="-3" fill="url(#hero)" class="sans">IBRAHIM</text>
+  <text y="185" font-size="15" class="soft">BACKEND SYSTEMS</text><text x="157" y="185" class="dim">×</text><text x="177" y="185" font-size="15" class="soft">ML INFRASTRUCTURE</text>
+  <rect y="211" width="464" height="42" rx="9" fill="#07101b" stroke="#193148"/><text x="15" y="237" font-size="12" class="dim">$</text><text x="34" y="237" font-size="12" class="ink">trace --from fundamentals --to production</text><rect x="338" y="224" width="7" height="16" rx="1" class="mint cursor"/>
+</g>
+
+<!-- topology scope -->
+<g clip-path="url(#scope)">
+  <rect x="728" y="82" width="416" height="256" rx="18" class="panel"/>
+  <path d="M728 113H1144" class="hair"/><text x="748" y="104" font-size="10" class="dim">LIVE REQUEST TOPOLOGY</text><text x="1081" y="104" font-size="10" class="mint">p95  42ms</text>
+  <circle cx="936" cy="210" r="84" fill="none" stroke="#162b3f"/><circle cx="936" cy="210" r="55" fill="none" stroke="#162b3f"/><path d="M936 126V294M852 210H1020" stroke="#14283b"/>
+  <path d="M936 210L936 126A84 84 0 0 1 1003 159Z" fill="#68f5bd" fill-opacity=".10" class="radar"/>
+  <path d="M770 210H853M1019 210H1104M936 126V150M936 270V294" class="hair"/><path d="M770 210H853M1019 210H1104" class="packet"/><path d="M770 210H853M1019 210H1104" class="packet b"/>
+  <circle cx="770" cy="210" r="13" fill="#0b1928" stroke="#61b8ff"/><circle cx="936" cy="210" r="19" fill="#0b1928" stroke="#68f5bd" filter="url(#glow)"/><circle cx="1104" cy="210" r="13" fill="#0b1928" stroke="#61b8ff"/>
+  <text x="748" y="244" font-size="9" class="dim">CLIENT</text><text x="915" y="244" font-size="9" class="mint">CORE</text><text x="1077" y="244" font-size="9" class="dim">DATA</text>
+  <path d="M728 82H1144" stroke="#68f5bd" stroke-opacity=".5" class="scan"/>
+  <text x="748" y="314" font-size="10" class="dim">trace</text><text x="796" y="314" font-size="10" class="ink">accepted → queued → committed</text>
+</g>
+
+<!-- manifesto -->
+<g transform="translate(48 376)"><rect width="492" height="208" rx="16" class="panel"/><text x="20" y="30" font-size="10" class="dim">01 / ENGINEERING THESIS</text><text x="20" y="68" font-size="18" class="ink sans">I want to understand the system</text><text x="20" y="92" font-size="18" class="ink sans">after the abstraction leaks.</text><text x="20" y="130" font-size="11" class="soft">correctness under concurrency</text><circle cx="439" cy="126" r="3" class="mint"/><text x="20" y="154" font-size="11" class="soft">latency under pressure</text><circle cx="419" cy="150" r="3" class="mint"/><text x="20" y="178" font-size="11" class="soft">clarity during failure</text><circle cx="404" cy="174" r="3" class="mint"/></g>
+
+<!-- signal matrix -->
+<g transform="translate(558 376)"><rect width="278" height="208" rx="16" class="panel"/><text x="20" y="30" font-size="10" class="dim">02 / SIGNAL MATRIX</text><text x="20" y="64" font-size="10" class="dim">SYSTEMS</text><rect x="88" y="54" width="154" height="7" rx="4" fill="#13273a"/><rect x="88" y="54" width="101" height="7" rx="4" class="mint bar1"/><text x="20" y="94" font-size="10" class="dim">BACKEND</text><rect x="88" y="84" width="154" height="7" rx="4" fill="#13273a"/><rect x="88" y="84" width="116" height="7" rx="4" class="blue bar2"/><text x="20" y="124" font-size="10" class="dim">DATA</text><rect x="88" y="114" width="154" height="7" rx="4" fill="#13273a"/><rect x="88" y="114" width="92" height="7" rx="4" class="mint bar3"/><text x="20" y="154" font-size="10" class="dim">ML / AI</text><rect x="88" y="144" width="154" height="7" rx="4" fill="#13273a"/><rect x="88" y="144" width="74" height="7" rx="4" class="blue"/><text x="20" y="183" font-size="9" class="dim">values show focus, not mastery</text></g>
+
+<!-- live logs -->
+<g transform="translate(854 376)"><rect width="290" height="208" rx="16" class="panel"/><text x="20" y="30" font-size="10" class="dim">03 / LEARNING STREAM</text><g class="log1"><text x="20" y="65" font-size="10" class="mint">INFO</text><text x="61" y="65" font-size="10" class="soft">examining query plans</text></g><g class="log2"><text x="20" y="94" font-size="10" class="blue">TRACE</text><text x="61" y="94" font-size="10" class="soft">following TCP packets</text></g><g class="log3"><text x="20" y="123" font-size="10" fill="#ffc857">WARN</text><text x="61" y="123" font-size="10" class="soft">abstraction detected</text></g><path d="M20 144H270" class="hair"/><text x="20" y="169" font-size="10" class="dim">next checkpoint</text><text x="20" y="190" font-size="10" class="ink">ship → observe → refine</text></g>
+
+<!-- footer bus -->
+<g transform="translate(48 610)"><rect width="1096" height="100" rx="16" class="panel"/><text x="20" y="28" font-size="10" class="dim">RUNTIME / INSTRUMENTS</text>
+<g transform="translate(20 46)"><rect width="90" height="30" rx="7" class="tag"/><text x="15" y="20" font-size="10" class="ink">C++</text></g><g transform="translate(120 46)"><rect width="90" height="30" rx="7" class="tag"/><text x="15" y="20" font-size="10" class="ink">PYTHON</text></g><g transform="translate(220 46)"><rect width="90" height="30" rx="7" class="tag"/><text x="15" y="20" font-size="10" class="ink">JAVA</text></g><g transform="translate(320 46)"><rect width="110" height="30" rx="7" class="tag"/><text x="15" y="20" font-size="10" class="ink">NODE.JS ↗</text></g><g transform="translate(440 46)"><rect width="110" height="30" rx="7" class="tag"/><text x="15" y="20" font-size="10" class="ink">FASTAPI</text></g><g transform="translate(560 46)"><rect width="120" height="30" rx="7" class="tag"/><text x="15" y="20" font-size="10" class="ink">POSTGRESQL</text></g><g transform="translate(690 46)"><rect width="90" height="30" rx="7" class="tag"/><text x="15" y="20" font-size="10" class="ink">LINUX</text></g><g transform="translate(790 46)"><rect width="100" height="30" rx="7" class="tag"/><text x="15" y="20" font-size="10" class="ink">DOCKER ↗</text></g><text x="932" y="65" font-size="9" class="mint">BUILDING...</text></g>
+</svg>
